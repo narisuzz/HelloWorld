@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>导航条和表单</title>
+  <!-- 引入 Bootstrap 的 CSS 文件 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- 导航条的标题 -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">内蒙古</a>
+    </div>
+
+    <!-- 导航菜单项目 -->
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">团队成员</a></li>
+            <li><a href="#">联系方式</a></li>
+          </ul>
+        </li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">服务</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+
+      <!-- 表单 -->
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="搜索">
+        </div>
+        <button type="submit" class="btn btn-default">提交</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
