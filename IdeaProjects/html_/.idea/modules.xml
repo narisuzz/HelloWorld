@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot.iml" filepath="$PROJECT_DIR$/boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html_.iml" filepath="$PROJECT_DIR$/html_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iu.iml" filepath="$PROJECT_DIR$/iu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript.iml" filepath="$PROJECT_DIR$/javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lizhien.iml" filepath="$PROJECT_DIR$/lizhien.iml" />
+    </modules>
+  </component>
+</project>

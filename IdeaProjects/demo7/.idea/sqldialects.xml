@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/Downloads/day09-Mybatis/资料/02. 准备工作/springboot-mybatis-crud/src/main/java/com/itheima/mapper/EmpMapper.java" dialect="GenericSQL" />
+  </component>
+</project>

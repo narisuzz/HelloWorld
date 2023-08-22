@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+    div {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+</style>
+<body>
+<button>显示</button>
+<button>隐藏</button>
+<button>切换</button>
+<div></div>
+
+<script>
+    $(function () {
+        $("button").eq(0).click(function () {
+            $("div").show(1000, function () {
+                alert("你G了")
+            })
+        })
+        $("button").eq(1).click(function () {
+            $("div").hide(1000, function () {
+                alert("我不可能G的")
+            })
+        })
+        $("button").eq(2).click(function () {
+            $("div").hide(3000);
+
+        })
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../demo8/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot/springboot/pom.xml" />
+        <option value="$USER_HOME$/Downloads/day09-Mybatis/资料/02. 准备工作/springboot-mybatis-crud/pom.xml" />
+        <option value="$USER_HOME$/Downloads/day10-SpringBootWeb案例/代码/tlias-web-management/pom.xml" />
+        <option value="$USER_HOME$/Downloads/day10-SpringBootWeb案例/资料/02. 环境准备/3. 基础环境/tlias-web-management/pom.xml" />
+        <option value="$USER_HOME$/Downloads/day10-SpringBootWeb案例/代码/tlias-web-managementiu/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_01_quickstart/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
